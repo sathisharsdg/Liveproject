@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <script src="https://use.fontawesome.com/36667026bc.js"></script>
+    <title>Home page</title>
+  </head>
+  <body>
+   
+
+
+ <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#register">
+    REGISTER
+</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#signin">
+    SIGN IN
+</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#payment-login">
+    PAYMENT LOGIN
+</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#accountmodal">
+    PREMIUM ACCOUNT
+</button>
+  
+   <!--Sign up Start-->
+  <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+     
+        <div class="modal-body ">
+            <div class="text-center reg-head">
+                <h2>Register as a member</h2>
+            </div><br>
+            <form class="register-form">
+                <div class="form-group">        
+                    <input type="text" class="form-control" id="name" placeholder="Fullname">                  
+                </div>
+                <div class="form-group">        
+                    <input type="text" class="form-control" id="number" placeholder="Contact Number">                  
+                </div>
+                <div class="form-group">        
+                  <input type="email" class="form-control" id="emailid" placeholder="Email">
+                  <small id="alert-text">Please ensure that you have entered the correct email</small>                  
+                </div>
+                <div class="form-group">                 
+                  <input type="password" class="form-control" id="password" placeholder="Enter Password">
+                </div>
+                <div class="form-group">                 
+                    <input type="password" class="form-control" id="confirm_password" placeholder="Confirm Password">
+                </div>
+                </br>
+                <div class="text-center">
+                    <img src="images/captcha.png" alt="" class="img-fluid">
+                </div>
+                </br>
+                <div class="form-group">                 
+                    <input type="text" class="form-control" id="enter_code" placeholder="Enter Above Code">
+                </div>
+                 <div class="text-center register-btns">
+                    <button type="submit" class="btn btn-warning btn-block free-member">Free Member</button>
+                    <button type="submit" class="btn btn-warning btn-block premium-member">Go Premium</button>
+                 </div>
+               
+              </form></br></br>
+              <div class="terms-text text-center">
+                  <small>To know our terms and services please visit <a href="#">Terms and Conditions</a></small>
+              </div>             
+        </div>   
+      </div>
+    </div>
+  </div>
+ <!--Sign Up End-->
+
+
+  <!--Sign in Start-->
+  <div class="modal fade" id="signin" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+     
+        <div class="modal-body ">
+            <div class="text-center form-logo">
+                 <img src="images/logo.png" alt="" class="img-fluid">
+            </div><br>
+            <form class="register-form">
+               <h4>Sign In</h4>
+                <div class="form-group">        
+                  <input type="email" class="form-control" id="emailid" placeholder="Email">                                 
+                </div>
+                <div class="form-group">                 
+                  <input type="password" class="form-control" id="password" placeholder="Enter Password">
+                </div>          
+                </br>
+               
+                 <div class="text-center register-btns">
+                    <button type="submit" class="btn btn-warning btn-block free-member">SUBMIT</button>
+                 </div>
+              
+                 <div class="subscribe-sec">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Subscribe me</label>
+                    <p>Sign up</p>
+                  </div>
+           
+              </form></br>
+              <div class="fb-section relative">
+                <img src="images/fb-icon.svg" alt="">
+                <small>login with facebook</small>
+            </div>  
+        </div>   
+      </div>
+    </div>
+  </div>
+ <!--Sign In End-->
+
+
+
+ <!--Sign in after payment Start-->
+ <div class="modal fade" id="payment-login" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+     
+        <div class="modal-body ">
+            <div class="text-center form-logo">
+                 <img src="images/logo.png" alt="" class="img-fluid">
+                 <h3>PAYMENT SUCCESSFUL</h3>
+                 <p>Please log into your acount</p>
+            </div><br>
+            <form class="register-form">
+               <h4>Sign In</h4>
+                <div class="form-group">        
+                  <input type="email" class="form-control" id="emailid" placeholder="Email">                                 
+                </div>
+                <div class="form-group">                 
+                  <input type="password" class="form-control" id="password" placeholder="Enter Password">
+                </div>          
+                </br>
+               
+                 <div class="text-center register-btns">
+                    <button type="submit" class="btn btn-warning btn-block free-member">SUBMIT</button>
+                 </div>
+                </br>              
+                 <div class="subscribe-sec">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Subscribe me</label>
+                    <p>Sign up</p>
+                  </div>
+           
+              </form></br>
+              <div class="fb-section relative">
+                <img src="images/fb-icon.svg" alt="">
+                <small>login with facebook</small>
+            </div>  
+        </div>   
+      </div>
+    </div>
+  </div>
+ <!--Sign In after payment End-->
+
+
+
+ <!--primuim account start-->
+ <div class="modal fade " id="accountmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">       
+        <div class="modal-body">
+                        
+<div class="bs-example account-selection">
+<div class="table-responsive"> 
+    <table class="table">
+            <thead>
+                  <tr>
+                    <th scope="col" class="inner-head"></th>
+                    <th scope="col">Free</br></th>
+                    <th scope="col">Premium Student<br> <small>15 per video</small></th>
+                    <th scope="col">Premium Family<br> <small>$20/month(1 account)</small></th>
+                    <th scope="col">Premium Personal<br> <small>$45/month(4 accounts)</small></th>
+                    
+                  </tr>
+                </thead>
+        <tbody>
+            <tr class="grey">
+                <td>Same Day Release</td>
+                <td><i class="fa fa-times" aria-hidden="true"></i> <br><small>(72 hours after)</small></td>
+                <td><i class="fa fa-check" aria-hidden="true"></i> </td>
+                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                <td><i class="fa fa-check" aria-hidden="true"></i></td>                
+            </tr> 
+            <tr class="dark-grey">
+                <td>All Access Pass</td>
+                <td><i class="fa fa-times" aria-hidden="true"></i> <br><small>(only selected shows)</small> </td> 
+                <td><i class="fa fa-check" aria-hidden="true"></i> </td> 
+                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                
+            </tr>
+            <tr class="grey">
+                <td>Casting</td>
+                <td><i class="fa fa-times" aria-hidden="true"></i> <br><small>(phone and PC only)</small></td>
+                <td><i class="fa fa-check" aria-hidden="true"></i> </td>
+                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                 
+            </tr>           
+            <tr class="dark-grey">
+                <td>Full HD</td>
+                <td><i class="fa fa-times" aria-hidden="true"></i> <br><small>(480p)</small></td>
+                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                 
+            </tr>
+            <tr class="grey">
+                <td>Contributors*</td>
+                <td><i class="fa fa-times" aria-hidden="true"></i><br><small>(with ads)</small></td>
+                <td><i class="fa fa-times" aria-hidden="true"></i></td>
+                <td><i class="fa fa-times" aria-hidden="true"></i></td>
+                <td><i class="fa fa-check" aria-hidden="true"></i></td>
+                
+            </tr>
+            <tr class="blue-bg">
+              <td></td>
+              <td></td>
+              <td class="yel-bg">Upgrade Now </br><small> Student</small></td>
+              <td class="yel-bg">Upgrade Now </br><small> Personal</small></td>
+              <td class="yel-bg">Upgrade Now </br><small> Family</small></td>             
+              
+          </tr>
+        </tbody>
+    </table>
+    <div class="tab-bot-content">
+        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit dolorem officia</small></br>
+        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit dolorem officia ipsum dolor sit amet adipisicing elit dolorem officia ipsum dolor sit ametadipisicing elit dolorem officia ipsum dolor sit amet consectetur adipisicing</small>
+    </div></br>
+    <div class="table-footer-img text-center">
+     <img src="images/g-1.jpg" alt="">
+     <img src="images/g-2.jpg" alt="">
+     <img src="images/fb-fb.png" alt="">
+     <img src="images/twitter.png" alt="">
+     <img src="images/insta.png" alt="">
+     <img src="images/youtube.png" alt="">
+    </div>
+    
+</div>    
+</div>                
+        </div> 
+      </div>
+    </div>
+  </div>
+
+
+ 
+
+
+  <!--Footer Section start-->
+
+   <!--Footer Section End-->
+
+
+   <script src="js/google.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/custom.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

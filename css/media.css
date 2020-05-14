@@ -1,0 +1,159 @@
+@media(max-width:1200px)
+{
+    section.main-banner {
+        height: auto;
+        padding: 1em 7em;
+    }
+
+    .sports-banner {        
+        height: 50rem;        
+    }
+    .entertainment-banner{
+        height: 50rem;    
+    }
+    .lifestyle-banner{
+        height: 50rem;    
+    }
+    .insights-banner{
+        height: 50rem;    
+    }
+}
+
+@media(max-width:960px)
+{
+    .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+        font-size: 1.4rem;
+        font-weight: 100;
+        color: #fff!important;
+         
+    }
+    .inner-banner {
+        position: absolute;
+        left: 2em;
+        top: 5em;
+    }
+    .sports-banner .banner-text {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        padding: 0em 0em;
+        background-color: #0e0e0e00;
+    }
+    .lifestyle-banner .banner-text {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        padding: 0em 0em;
+        background-color: #0e0e0e00;
+    }
+    .entertainment-banner .banner-text {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        padding: 0em 0em;
+        background-color: #0e0e0e00;
+    }
+    .insights-banner .banner-text {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        top: 50%;
+        left: 50%;
+        padding: 0em 0em;
+        background-color: #0e0e0e00;
+    }
+ 
+}
+@media(max-width:768px)
+{
+    section {
+        display: block;
+        padding: 1em 2em!important;
+    }
+    .right-menus {
+        margin: auto 1em;
+    }
+    .navbar-dark .navbar-brand img {
+        padding: 1em 0em 1em 0;
+        width: 10rem;
+    }
+    .recommend-channel-section .subscribe span {        
+        font-size: 1rem;         
+    }
+    .recommend-channel-section .subscribe p {         
+        font-size: 1rem;
+    }
+    .common-box h3 {
+        font-size: 1.2rem;
+    }
+    .common-box p {
+        font-size: 1rem;
+    }
+   
+  
+
+}
+
+@media(max-width:600px)
+{
+    .common-box h3 {
+        font-size: 1.3rem;
+    }
+    .common-box p {
+        font-size: 1.2rem;
+    }
+}
+
+
+@media(max-width:520px)
+
+{
+
+    .sports-banner .banner-text {       
+        width: 80%;
+    }
+
+    .lifestyle-banner .banner-text {       
+        width: 80%;
+    }
+
+    .entertainment-banner .banner-text {       
+        width: 80%;
+    }
+
+    .insights-banner .banner-text {        
+        width: 80%;
+    }
+    .sports-news .sports-content {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 0em;
+        flex-direction: column;
+    }
+    .signup a.nav-link {
+        color: #000!important;
+        font-weight: 500;
+        font-size: 1rem;
+    }
+    li.nav-item.signup {
+        padding: 1em 1em;
+    }
+    .navbar-nav li.nav-item {
+        padding: .5em;
+    }
+    .navbar-dark .navbar-brand img {
+        padding: 0em 0em 0em 0;
+        width: 4rem;
+    }
+    .carousel-item .col {
+        -ms-flex-preferred-size: 0;
+        flex-basis: auto!important;
+        -ms-flex-positive: 1;        
+        /* max-width: 100%; */
+        
+    }
+}

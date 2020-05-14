@@ -1,0 +1,217 @@
+/*common for all popup*/
+.form-group .form-control {
+    padding: 1.5em 1em;
+    font-size: 1.3rem;
+    border-radius: 0;
+    margin: 1em 0;
+}
+/* common for al popup */
+
+/*signup Register CSS Start*/
+ 
+.register-btns {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+div#register .modal-content {
+    background-color: black;
+    padding: 3em 3em;
+    width: 80%;
+    margin: auto;
+}
+button.free-member {
+    font-size: 1.8rem;
+    margin: 0 1em 0 0;
+    border-radius: 0;
+    font-weight: 600;
+    background-color: #ff8a00;
+    border: none;
+    color: #000;
+}
+button.premium-member {
+    font-size: 1.8rem;
+    margin: 0 0 0 1em;
+    border-radius: 0;
+    font-weight: 600;
+    background-color: #ff8a00;
+    border: none;
+    color: #000;
+}
+.terms-text small {
+    font-size: 1rem;
+    color: #fff;
+   padding: 1em 0;
+}
+.terms-text small a {
+    font-size: 1rem;
+    color: #ff8a00;
+}
+.reg-head h2 {
+    color: #ff8a00;
+}
+#alert-text{
+    color: #fff;
+    font-size: 1.3rem;
+}
+/*signup Register CSS End*/
+
+/*Sign in CSS Start */
+
+div#signin .modal-content {
+    background-color: #000000cf;
+    padding: 3em 3em;
+    width: 80%;
+    margin: auto;        
+}
+div#signin h4 {
+  color: #fff;
+}
+.form-logo img.img-fluid {
+    width: 30%;
+}
+
+div#signin .free-member {
+    font-size: 1.8rem;
+    margin: 0!important;
+    border-radius: 0;
+    font-weight: 600;
+    background-color: #ff8a00;
+    border: none;
+    color: #000;
+}
+.subscribe-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1em;
+}
+.subscribe-sec label {
+    color: #fff;
+    padding: 0 1em;
+    font-size: 1.4rem;
+}
+.subscribe-sec p {
+    color: #fff;
+    margin: 0;
+    font-size: 1.4rem;
+}
+.fb-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .fb-section img {
+    width: 3rem;
+    /* padding: 2em 0 0 0; */
+}
+
+.fb-section small {
+    color: #fff;
+    font-size: 1.4rem;
+    padding: 0 1em;
+}
+/*Sign in CSS End */
+
+
+/*Sign in after payment Start CSS*/
+div#payment-login .modal-content {
+    background-color: #000000cf;
+    padding: 3em 3em;
+    width: 80%;
+    margin: auto;        
+}
+
+div#payment-login h3{
+    color: #ff8a00;
+}
+.form-logo p{
+    color: #fff;
+}
+div#payment-login  h4 {
+    color: #fff;
+ }
+ div#payment-login  .form-logo p {
+    color: #ff9b25;
+    font-size: 1.6rem;
+}
+div#payment-login .free-member{
+    font-size: 1.8rem;
+    margin: 0!important;
+    border-radius: 0;
+    font-weight: 600;
+    background-color: #ff8a00;
+    border: none;
+    color: #000;
+}
+/*Sign in after payment End CSS*/
+
+/*premium css Start */
+@media(max-width:600px){
+    div#accountmodal .table-responsive {
+        display: block;
+        width: 100%;
+        overflow-x: auto!important;
+    }
+}
+@media (min-width: 576px){
+div#accountmodal .modal-dialog {
+    max-width: 85rem;
+    margin: 1.75rem auto;
+}
+
+}
+div#accountmodal .modal-content {
+    padding: 2rem;
+    margin: 0 auto;
+    width: 100%;
+    background-image: url(images/premium-bg.jpg);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.account-selection td {
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+}
+div#accountmodal .table thead th {
+    vertical-align: bottom;
+    border-bottom: 1px solid #dee2e61a;
+    background-color: #ffa707;
+    font-size: 1.4rem;
+    text-align: center;
+    border: 0;
+}
+div#accountmodal th.inner-head {
+    background-color: #7fffd400!important;
+}
+div#accountmodal .table td {
+    padding: .8em 1em;
+    vertical-align: top;
+    border-top: 5px solid #000000;
+}
+.account-selection tr.grey {
+    background-color: #666666;
+}
+tr.dark-grey {
+    background-color: #333333;
+}
+div#accountmodal td.yel-bg {
+    background-color: #ffa707;
+    color: #000;
+    font-weight: 700;
+}
+
+div#accountmodal .tab-bot-content small {
+    color: #fff;
+    font-size: 1.3rem;
+    padding: .5em 0;
+}
+
+div#accountmodal .table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: inherit;
+}
+/*premium css End */

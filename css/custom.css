@@ -1,0 +1,448 @@
+/* common CSS Start */
+@font-face {
+    font-family: dmsans;
+    src: url('fonts/DMSans-Regular.ttf');
+    src: url('fonts/DMSans-Medium.ttf');
+    src: url('fonts/DMSans-Bold.ttf');
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }  
+  html {
+    font-size: 62.5%;
+  } 
+  body {
+    margin: 0;      
+    /* font-family: 'dmsans',  sans-serif; */
+    width: 100%;
+     
+  }
+  a:hover{
+    text-decoration: none;
+  }
+
+body h1{
+   font-size: 3.5rem;
+  }
+body h2{
+    font-size: 3rem;
+}
+body h3{
+    font-size: 2.5rem;
+}
+body h4{
+    font-size: 2rem;
+}
+p,a,span{
+  font-size: 1.3rem;
+}
+.relative{
+  position: relative;
+}
+.p-0 {
+  padding: 0;
+}
+
+/* Common CSS End */
+
+
+/* navbar Start CSS  */
+
+.navbar-dark .navbar-brand img {
+  padding: 0 5em;
+  width: 20rem;
+}
+.main-menu {
+  background-color: black;
+  padding: .5em;
+  transition: 1s all cubic-bezier(0.4, 0, 1, 1);
+   
+}
+.navbar-nav .nav-link {
+  padding-right: .5rem;
+  padding-left: .5rem;
+  font-size: 1.9rem;
+  font-weight: 100;
+  color: #fff!important;
+  padding: 0em!important;
+}
+.navbar-nav li.nav-item {
+  padding: 1em 1em;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(255,255,255,.75);   
+  color: #ff8a00!important;  
+}
+.footer-section a:hover {
+  color: #ff8a00;
+}
+.read-more:hover {
+  background-color: #ff8a00;
+  color: #fff;   
+}
+.right-menus {
+  margin: auto 7em;
+}
+.signup {
+  background-color: #ff8a00;
+  padding: .5em 1.5em;
+}
+.signup a.nav-link {
+  color: #000!important;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+li.nav-item.signup {
+  padding: 1em 2em;
+}
+
+  li.nav-item.signup .nav-link:hover {
+    color: rgba(255,255,255,.75);
+    color: #000!important;
+}
+
+/* navbar CSS End */
+
+/*main banner css start */
+section.main-banner {
+  height: 750px;
+  padding: 1em 7em;
+}
+.banner-one {
+  background-image: url('images/banner-1.jpg');
+  height: 750px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner-head h1 {
+  padding: .5em 2em;
+  color: #ff8a00;
+  font-weight: 400;
+}
+.inner-banner {
+  position: absolute;
+  left: 5em;
+  top: 5em;
+}
+.inner-banner h4,.inner-banner h2 {
+  color: #fff;
+  font-weight: 300;
+}
+.banner-two {
+  background-image: url('images/banner-2.jpg');
+  height: 375px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner-three {
+  background-image: url('images/banner-3.jpg');
+  height: 375px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner-four {
+  background-image: url('images/banner-4.jpg');
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner-five{
+  background-image: url('images/banner-5.jpg');
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner-six{
+  background-image: url('images/banner-6.jpg');
+  height: 250px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.pointer-link {
+  cursor: pointer;
+}
+.gap {
+  height: 2rem;
+}
+.fixed-header {
+  position: fixed;
+  z-index: 9;
+  width: 100%;
+  transition: 1s all cubic-bezier(0.4, 0, 1, 1);
+}
+
+
+/*main banner css end */
+
+/*Latest news section start*/
+section.live-news-feed {
+  padding: 5em 7em;
+}
+.sports-heading {
+  padding: 2em 0;
+}
+.sports-heading h2 {
+  font-weight: 700;
+}
+
+.sports-news .sports-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0em;
+}
+.sports-news .inner-content {
+  padding: 0 2em;
+  flex: 2;
+}
+.inner-content small {
+  font-size: 1.6rem;
+}
+.like-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.like-details span {
+  padding: 0 0.5em;
+}
+.sports-news .inner-content h3 {
+  font-weight: 700;
+  font-size: 2.2rem;
+}
+.read-more {
+  font-size: 1.3rem;
+  border: 1px solid #c3b5b5;
+  padding: .5em 1em;
+}
+.sports-one {
+  flex: 2;
+}
+/*Latest news section end*/
+
+
+
+/*recommend news section start*/
+.recommend-channel-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-shadow: 0px 3px 14px 2px #e2dddd;
+  padding: 1em .5em;
+}
+.recommend-channel-section img {
+  padding: .5em 2em 0 0;
+}
+.recommend-head {
+  padding: 3em 0 1em 0;
+}
+.recommend-channel-section    .subscribe {
+  background-color: #09508e;
+  padding: 0.4em 1em;
+  border-radius: 50rem;
+  color: #fff;
+  margin: 1em 0;
+}
+.recommend-channel-section .subscribe p {
+  margin: 0;
+}
+.recommend-channel-section .subscribe  span {
+  position: absolute;
+  right: 0em;
+  top: 0.10em;
+  height: 2em;
+  background-color: #0380ec;
+  padding: 0 1em;
+  border-top-right-radius: 50rem;
+  border-bottom-right-radius: 50rem;
+}
+/*recommend news section end*/
+
+
+
+/*sports start */
+.sports-banner.relative {
+  background-image: url(images/sports-banner.jpg);
+  background-size: cover;
+  height: 60rem;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.sports-banner .banner-text {
+  position: absolute;
+  transform: translate(-25%, -50%);
+  bottom: 5%;
+  left: 65%;
+  padding: 2em 2em;
+  background-color: #0e0e0e78;
+}
+.sports-banner .banner-text h1 {
+  color: #ff8a00;
+}
+.sports-banner .banner-text p{
+  color: #fff;
+  font-size: 1.5rem;
+}
+.feeatured-slider {
+  padding: 2em 5em;
+}
+.common-inner-slidetext {
+  position: absolute;
+  top: 40%;
+  left: 20rem;
+  transform: translate(-50%,-50%);
+}
+
+.carousel-control-next, .carousel-control-prev { 
+  width: 2%!important;  
+}
+span.line {
+  width: 10rem;
+  height: 0.2rem;
+  background-color:#000;
+  display: block;
+  text-align: left;   
+}
+.common-box {   
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  cursor: pointer;
+  width:100%;
+}
+.common-box:before {
+  content:"";
+  position: absolute;
+  background-color: #000000d1; 
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  transition: all .3s linear;
+  opacity: 0;
+}
+.common-box:hover:before{
+  opacity: 1;
+}
+.common-box img {
+  width:100%;
+  height: auto;
+  transition: all .3s linear;
+}
+.common-box .box-content {
+  position: absolute;
+  top:50%;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  transform: translateY(-50%) scale(0);
+  transition: all .3s linear;
+}
+.common-box:hover .box-content {
+  transform: translateY(-50%) scale(1);
+}
+h2.yellow {
+  color: #ff8a00;
+}
+
+.common-box h3 {
+  font-size: 2rem;
+}
+.common-box p {
+  font-size: 1.2rem;
+}
+/*sports End */
+
+
+
+/*entertainment css start */
+.entertainment-banner.relative {
+  background-image: url(images/entertainment-banner.jpg);
+  background-size: cover;
+  height: 60rem;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.entertainment-banner .banner-text {
+  position: absolute;
+  transform: translate(-25%, -50%);
+  bottom: 5%;
+  left: 65%;
+  padding: 2em 2em;
+  background-color: #0e0e0e78;
+}
+.entertainment-banner .banner-text h1 {
+  color: #ff8a00;
+}
+.entertainment-banner .banner-text p{
+  color: #fff;
+  font-size: 1.5rem;
+}
+/*entertainment css end */
+
+
+/*lifestyle css start */
+.lifestyle-banner.relative {
+  background-image: url(images/lifestyle-banner.jpg);
+  background-size: cover;
+  height: 60rem;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.lifestyle-banner .banner-text {
+  position: absolute;
+  transform: translate(-25%, -50%);
+  bottom: 5%;
+  left: 65%;
+  padding: 2em 2em;
+  background-color: #0e0e0e78;
+}
+.lifestyle-banner .banner-text h1 {
+  color: #ff8a00;
+}
+.lifestyle-banner .banner-text p{
+  color: #fff;
+  font-size: 1.5rem;
+}
+/*lifestyle css end */
+
+
+/*Insights css start */
+.insights-banner.relative {
+  background-image: url(images/insight-banner.jpg);
+  background-size: cover;
+  height: 60rem;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.insights-banner .banner-text {
+  position: absolute;
+  transform: translate(-25%, -50%);
+  bottom: 5%;
+  left: 65%;
+  padding: 2em 2em;
+  background-color: #0e0e0e78;
+}
+.insights-banner .banner-text h1 {
+  color: #ff8a00;
+}
+.insights-banner .banner-text p{
+  color: #fff;
+  font-size: 1.5rem;
+}
+/*Insights css end */
+
+/* footer CSS Start */
+section.footer-section {
+  padding: 2em;
+  background-color: black;
+}
+.footer-section a{
+color: #fff;
+    padding: 0 1em;
+    font-size: 1.6rem;
+    font-weight: 100;
+}
+/* Footer CSS End */
